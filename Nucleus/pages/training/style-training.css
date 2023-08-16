@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*overflow-x: hidden;*/
+}
+
+#Home {
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	background-color: darkred;
+
+}
+
+#Category {
+
+}
+
+#athletics {
+	overflow-x: hidden;
+	width: 100vw;
+	height: 100vh;
+	background-color: floralwhite;
+}
+
+
+#outdoor-sports {
+	width: 100vw;
+	background-color: floralwhite;
+	height: 100vh;
+
+}
+
+.athletics-row-1 {
+	display: flex;
+}
+
+.athletics-row-2 {
+	display: flex;
+}
+
+.target-box {
+	display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+}
+
+.target-box img {
+	width: 20vw;
+	height: 50vh;
+
+}
+
+.target-box p {
+	position: absolute;
+	z-index: 3;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

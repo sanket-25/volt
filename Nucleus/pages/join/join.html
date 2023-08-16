@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Join | VOLT</title>
+	<link rel="stylesheet" type="text/css" href="./style-pc.css">
+	<link rel="stylesheet" type="text/css" href="./style-ad.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../../css/style-pc-home.css"> -->
+  <link rel="stylesheet" type="text/css" href="./style-pc-home.css">
+  <link rel="stylesheet" type="text/css" href="./main.css">
+
+        <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+	<section id="Home">
+	<a href="../home/index.html" class="logo-link"><div class="logo"><img src="../../../sprinter.png"><span>VOLT</span></div></a>
+	<div class="nav">
+		<nav>
+			<ul>
+				<li><a href="../events/events.html" class="nav-a">Events</a></li>
+				<li><a href="../clubs/clubs.html" class="nav-a">Clubs</a></li>
+                <li><a href="../features/features.html" class="nav-a">Features</a></li>
+				<li><a href="../training/training.html" class="nav-a">Training</a></li>
+                <li><a href="../profile/profile.html" class="nav-a">Personal Best</a></li>
+                <!-- <li><div class="columns"><a href="../join/join.html" class="nav-a-b">Join Volt</a>
+    <div class="dropdown">
+    <a href="#" class="nav-a">Sign In</a>
+    <a href="#" class="nav-a">Sign Up</a>
+  </div>
+  </div>
+  </li> -->
+
+
+			</ul>
+		</nav>
+	</div>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+    <center>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with Volt please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hey Athlete</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+	</center>
+
+    
+
+
+
+
+
+
+
+
+
+
+<script>
+	const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+</script>	
+
+
+
+
+
+
+<script type="module">
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+	import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
+	// TODO: Add SDKs for Firebase products that you want to use
+	// https://firebase.google.com/docs/web/setup#available-libraries
+  
+	// Your web app's Firebase configuration
+	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	const firebaseConfig = {
+	  apiKey: "AIzaSyDpKsLyW6N99PsHCxtjEdCJbUkD2ISLrYA",
+	  authDomain: "website-database-volt.firebaseapp.com",
+	  projectId: "website-database-volt",
+	  storageBucket: "website-database-volt.appspot.com",
+	  messagingSenderId: "97253789401",
+	  appId: "1:97253789401:web:21e75c66c6e053dccd78c8",
+	  measurementId: "G-SV1PWN5HEX"
+	};
+  
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

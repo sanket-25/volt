@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+#filter-nav {
+  display: flex;
+  justify-content: right;
+  margin-right: 2vw;
+  margin-top: 2vh;
+  text-align: center;
+  position: relative;
+
+}
+
+#filter-nav label {
+  color: black;
+  font-size: 2vw;
+  font-family: serif;
+  font-weight: 300;
+  margin: 1vw;
+  margin-left: 2vw;
+}
+
+#filter-nav select {
+  /*background-color: blue;*/
+  height: 4vh;
+  width: 8vw;
+  /*top: 100%;*/
+  position: relative;
+  transform: translate(0, 60%);
+}
+
+
+
+body {
+	background-color: #f6f2ef;
+	color: #333;
+}
+
+.marquee {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 144px;
+  font-weight: bold;
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+
+
+
+
+
+
+#Clubs {
+  /*overflow-x: hidden;*/
+
+}
+
+.row-row {
+	display: flex;
+	justify-content: center;
+
+}
+
+.three-three {
+	width: 33vw;
+	height: 75vh;
+	border: 1px solid black;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+.one-of-three h2 {
+  font-size: 3vw;
+  top: 10vh;
+  position: relative;
+  text-align: center;
+}
+
+.one-of-three h3 {
+  font-size: 1.5vw;
+  top: 20vh;
+  position: relative;
+  text-align: center;
+}
+
+.two-of-three {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-of-three img {
+  width: 32vw;
+  height: 24vh;
+  align-content: center;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+
+.three-of-three {
+  overflow-x: hidden;
+}
+
+.three-of-three h3 {
+  font-size: 2vw;
+  top: 10vh;
+  position: relative;
+  text-align: center;
+}
+
+.three-of-three p {
+  font-size: 1.5vw;
+  top: 20vh;
+  position: relative;
+  /*text-align: center;*/
+  left: 2vw;
+  margin-bottom: 1vh;
+}
